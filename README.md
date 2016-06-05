@@ -1,0 +1,1 @@
+# typicalnight.github.io
