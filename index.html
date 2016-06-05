@@ -1,0 +1,135 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>A Typical Night at Nathan's</title>
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <link rel="stylesheet" href="assets/css/ratchet.css">
+        <link rel="stylesheet" href="assets/css/main.css">
+        <script src="assets/js/ratchet.js"></script>
+    </head>
+    <body>
+        <header class="bar bar-nav">
+            <a class="icon icon-gear pull-right" href="#settingsModal"></a>
+            <h1 class="title">A Typical Night At Nathan's</h1>
+        </header>
+        <div class="content">
+            <ul class="table-view">
+                <li class="table-view-cell table-view-divider">Gamemode Selection</li>
+                <li class="table-view-cell media">
+                    <a class="navigate-right" href="choose-theater.html" data-transition="slide-in">
+                        <img class="media-object pull-left gamemode-icon" src="assets/img/original.png">
+                        <div class="media-body">
+                            Classic
+                            <p>Classic collection and dodging</p>
+                            <p>Best Score: <span>0</span></p>
+                        </div>
+                    </a>
+                </li>
+                <li class="table-view-cell media">
+                    <a class="navigate-right" href="choose-theater.html" data-transition="slide-in">
+                        <img class="media-object pull-left gamemode-icon" src="assets/img/original-classic.png">
+                        <div class="media-body">
+                            Classic Legacy
+                            <p>Classic collection and dodging, legacy version</p>
+                            <p>Best Score: <span>0</span></p>
+                        </div>
+                    </a>
+                </li>
+                <li class="table-view-cell media">
+                    <a class="navigate-right" href="choose-theater.html" data-transition="slide-in">
+                        <img class="media-object pull-left gamemode-icon" src="assets/img/blitz.png">
+                        <div class="media-body">
+                            Blitz Mode
+                            <p>Collect as many whips as you can</p>
+                            <p>Best Score: <span>0</span></p>
+                        </div>
+                    </a>
+                </li>
+                <li class="table-view-cell media">
+                    <a class="navigate-right" href="choose-theater.html" data-transition="slide-in">
+                        <img class="media-object pull-left gamemode-icon" src="assets/img/deflate.png">
+                        <div class="media-body">
+                            Deflation Mode
+                            <p>Keep Nathan's pleasure above 0 as long as you can</p>
+                            <p>Best Time: <span>0</span> seconds</p>
+                        </div>
+                    </a>
+                </li>
+                <li class="table-view-cell media">
+                    <a class="navigate-right" href="choose-theater.html" data-transition="slide-in">
+                        <img class="media-object pull-left gamemode-icon" src="assets/img/insane.png">
+                        <div class="media-body">
+                            Insane Mode
+                            <p>Classic collection and dodging, insanely fast..</p>
+                            <p>Best Score: <span>0</span> seconds</p>
+                        </div>
+                    </a>
+                </li>
+                <!-- Special Gamemodes -->
+                <li class="table-view-cell table-view-divider">Special Releases</li>
+                <li class="table-view-cell media">
+                    <a class="navigate-right" href="choose-theater.html" data-transition="slide-in">
+                        <img class="media-object pull-left gamemode-icon" src="assets/img/brendon.png">
+                        <div class="media-body">
+                            A Very Special Night at Brendon's
+                            <p>Survive Rebecca while collecting burgers</p>
+                            <p>Best Time: <span>0</span></p>
+                        </div>
+                    </a>
+                </li>
+                <li class="table-view-cell media">
+                    <a class="navigate-right" href="choose-theater.html" data-transition="slide-in">
+                        <img class="media-object pull-left gamemode-icon" src="assets/img/binding.png">
+                        <div class="media-body">
+                            The Binding of Nathan
+                            <p>Survive the basement as long as you can</p>
+                            <p>Best Time: <span>0</span> seconds</p>
+                        </div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <!-- /.content -->
+        <!-- Settings modal -->
+        <div id="settingsModal" class="modal">
+            <header class="bar bar-nav">
+                <a class="icon icon-close pull-right" href="#settingsModal"></a>
+                <h1 class="title">Settings</h1>
+            </header>
+            <div class="content">
+                <form class="input-group">
+                    <input type="text" placeholder="Full name">
+                    <input type="email" placeholder="Email">
+                    <input type="text" placeholder="Username">
+                </form>
+                <h5 class="content-padded">App settings</h5>
+                <ul class="table-view">
+                    <li class="table-view-cell media">
+                        <span class="media-object pull-left icon icon-sound"></span>
+                        <div class="media-body">
+                            Enable sounds
+                        </div>
+                        <div class="toggle">
+                            <div class="toggle-handle"></div>
+                        </div>
+                    </li>
+                    <li class="table-view-cell media">
+                        <span class="media-object pull-left icon icon-person"></span>
+                        <div class="media-body">
+                            Parental controls
+                        </div>
+                        <div class="toggle">
+                            <div class="toggle-handle"></div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="content-padded">
+                    <button class="btn btn-positive btn-block">Save settings</button>
+                </div>
+            </div>
+        </div>
+        <!-- /.modal -->
+    </body>
+</html>
