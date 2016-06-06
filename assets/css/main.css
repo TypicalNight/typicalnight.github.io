@@ -7,3 +7,18 @@ small {
     height: 64px;
     width: 64px;
 }
+
+
+canvas {
+    position: relative;
+    z-index: 1;
+    margin-top: 52px;
+}
+.mainBox {
+    position: relative;
+    top: 32vh;
+}
+
+.control-button {
+    
+}
