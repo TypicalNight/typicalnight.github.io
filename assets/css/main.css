@@ -1,24 +1,93 @@
-
-small {
-  color: #888888;
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fff;
+    color: #000;
+    white-space: normal;
+}
+.adjust-text-y {
+    margin-top: 15px;
 }
 
-.gamemode-icon {
-    height: 64px;
-    width: 64px;
+.page-body {
+    margin-top: 118px;
+}
+
+.nav-item {
+    font-size: 12px;
+    margin-right: 12px;
+}
+
+.navigation {
+    background-color: #f8f8f8;
+    border-color: #e7e7e7;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: inline-block;
+    clear: both;
+    -webkit-box-shadow: 0 10px 6px -6px rgba(119, 119, 119, 0.45);
+       -moz-box-shadow: 0 10px 6px -6px rgba(119, 119, 119, 0.45);
+            box-shadow: 0 10px 6px -6px rgba(119, 119, 119, 0.45);
+}
+
+.navigation-header {
+    font-size: 21px;
 }
 
 
-canvas {
+.thumbnailFloat {
+    float: left;
+    display: inline-block;
+    width: 300px;
+    height: 312px;
+}
+
+.thumbnailImage {
+    width: 290px;
+    height: 244px;
+    margin: 0;
+    background-color: #525252;
+}
+
+.thumbnailHeader {
+    font-size: 18px;
+    color: #000;
+    font-size: 14px;
+}
+
+.thumbnailAuthors {
+    text-align: center;
+    padding-top: 4px;
+    color: #000;
+    font-size: 13px;
+}
+
+.thumbnailBanner {
+    height: 40px;
+    background-color: rgba(255,255,255,0.7);
+    padding: 6px;
+    overflow: hidden;
+}
+
+.thumbnailLabels {
+    display: inline-block;
     position: relative;
-    z-index: 1;
-    margin-top: 52px;
-}
-.mainBox {
-    position: relative;
-    top: 32vh;
+    padding-top: 177px;
+    padding-left: 8px;
 }
 
-.control-button {
-    
+.thumbnailButton {
+    width: 290px;
+}
+
+.mapLabel {
+    display: inline-block;
+    margin-top: 2px;
+    padding-bottom: 3px;
+}
+
+.mapGamemode {
+    font-size: 9px;
+    color: #4a4a4a;
 }

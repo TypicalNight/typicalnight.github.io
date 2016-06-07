@@ -1,135 +1,119 @@
 <html>
     <head>
-        <meta charset="utf-8">
         <title>A Typical Night at Nathan's</title>
-        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, minimal-ui">
-        <meta name="apple-mobile-web-app-capable" content="yes">
-        <meta name="apple-mobile-web-app-status-bar-style" content="black">
-        <link rel="stylesheet" href="assets/css/ratchet.css">
-        <link rel="stylesheet" href="assets/css/ratchet-theme-ios.css">
-        <link rel="stylesheet" href="assets/css/main.css">
-        <script src="assets/js/ratchet.js"></script>
+        <link rel="icon" type="image/png" href="games/player.png" />
+        
+        <script src="assets/js/cacheJS.js"></script>
+        <script src="https://use.fontawesome.com/1e6e28472e.js"></script>
+        
+        <link rel="stylesheet" href="assets/css/bootstrap.css" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Montserrat" />
     </head>
-    <body>
-        <header class="bar bar-nav">
-            <a class="icon icon-gear pull-right" href="#settingsModal"></a>
-            <h1 class="title">A Typical Night At Nathan's</h1>
-        </header>
-        <div class="content">
-            <ul class="table-view">
-                <li class="table-view-cell table-view-divider">Gamemode Selection</li>
-                <li class="table-view-cell media">
-                    <a href="game/classic.html" class="navigate-right" href="choose-theater.html" data-transition="slide-in">
-                        <img class="media-object pull-left gamemode-icon" src="assets/img/original.png">
-                        <div class="media-body">
-                            Classic
-                            <p>Classic collection and dodging</p>
-                            <p>Best Score: <span>0</span></p>
-                        </div>
-                    </a>
-                </li>
-                <li class="table-view-cell media">
-                    <a class="navigate-right" href="choose-theater.html" data-transition="slide-in">
-                        <img class="media-object pull-left gamemode-icon" src="assets/img/original-classic.png">
-                        <div class="media-body">
-                            Classic Legacy
-                            <p>Classic collection and dodging, legacy version</p>
-                            <p>Best Score: <span>0</span></p>
-                        </div>
-                    </a>
-                </li>
-                <li class="table-view-cell media">
-                    <a class="navigate-right" href="choose-theater.html" data-transition="slide-in">
-                        <img class="media-object pull-left gamemode-icon" src="assets/img/blitz.png">
-                        <div class="media-body">
-                            Blitz Mode
-                            <p>Collect as many whips as you can</p>
-                            <p>Best Score: <span>0</span></p>
-                        </div>
-                    </a>
-                </li>
-                <li class="table-view-cell media">
-                    <a class="navigate-right" href="choose-theater.html" data-transition="slide-in">
-                        <img class="media-object pull-left gamemode-icon" src="assets/img/deflate.png">
-                        <div class="media-body">
-                            Deflation Mode
-                            <p>Keep Nathan's pleasure above 0 as long as you can</p>
-                            <p>Best Time: <span>0</span> seconds</p>
-                        </div>
-                    </a>
-                </li>
-                <li class="table-view-cell media">
-                    <a class="navigate-right" href="choose-theater.html" data-transition="slide-in">
-                        <img class="media-object pull-left gamemode-icon" src="assets/img/insane.png">
-                        <div class="media-body">
-                            Insane Mode
-                            <p>Classic collection and dodging, insanely fast..</p>
-                            <p>Best Score: <span>0</span> seconds</p>
-                        </div>
-                    </a>
-                </li>
-                <!-- Special Gamemodes -->
-                <li class="table-view-cell table-view-divider">Special Releases</li>
-                <li class="table-view-cell media">
-                    <a class="navigate-right" href="choose-theater.html" data-transition="slide-in">
-                        <img class="media-object pull-left gamemode-icon" src="assets/img/brendon.png">
-                        <div class="media-body">
-                            A Very Special Night at Brendon's
-                            <p>Survive Rebecca while collecting burgers</p>
-                            <p>Best Time: <span>0</span></p>
-                        </div>
-                    </a>
-                </li>
-                <li class="table-view-cell media">
-                    <a class="navigate-right" href="choose-theater.html" data-transition="slide-in">
-                        <img class="media-object pull-left gamemode-icon" src="assets/img/binding.png">
-                        <div class="media-body">
-                            The Binding of Nathan
-                            <p>Survive the basement as long as you can</p>
-                            <p>Best Time: <span>0</span> seconds</p>
-                        </div>
-                    </a>
-                </li>
-            </ul>
-        </div>
-        <!-- /.content -->
-        <!-- Settings modal -->
-        <div id="settingsModal" class="modal">
-            <header class="bar bar-nav">
-                <a class="icon icon-close pull-right" href="#settingsModal"></a>
-                <h1 class="title">Settings</h1>
-            </header>
-            <div class="content">
-                <h5 class="content-padded">User Details</h5>
-                <ul class="table-view">
-                    <li class="table-view-cell media">
-                        <span class="media-object pull-left icon icon-person"></span>
-                        <div class="media-body">
-                            ddc39044-2b0d-11e6-b67b-9e71128cae77
-                        </div>
-                    </li>
-                </ul>
-                <h5 class="content-padded">Game Settings</h5>
-                <ul class="table-view">
-                    <li class="table-view-cell media">
-                        <span class="media-object pull-left icon icon-bars"></span>
-                        <div class="media-body">
-                            Show Object Stats
-                        </div>
-                        <div class="toggle active">
-                            <div class="toggle-handle"></div>
-                        </div>
-                    </li>
-                    <li class="table-view-cell media">
-                        <span class="media-object pull-left icon icon-close"></span>
-                        <div class="media-body">
-                            Reset Scores
-                        </div>
-                        <button class="btn btn-negative">Reset</button>
-                    </li>
-                </ul>
+    <body class="container">
+        <div class="navigation">
+            <div class="container" style="margin-top: 8px; margin-bottom: 8px;">
+                <span class="navigation-header">A Typical Night at Nathan's<br>
+                    <span class="nav-item"><i class="fa fa-user" aria-hidden="true"></i> UUID: <code>null</code></span>
+                    <span class="nav-item"><i class="fa fa-key" aria-hidden="true"></i> Score Token: <code>null</code></span>
+                </span>
             </div>
         </div>
-        <!-- /.modal -->
+        <div class="page-body">
+            <div id="gamemode-selection">
+                <div class="page-header">
+                    <h3>Gamemodes <span class="badge">0</span></h3>
+                </div>
+                <div class="row">
+                    <div class="col-xs-4">
+                        <div id="gamemode_classic" class="thumbnail thumbnailFloat">
+                            <div class="thumbnailImage" style="background-image: url(assets/img/original.png);">
+                                <div class="thumbnailBanner">
+                                    <span class="thumbnailHeader"><strong>Classic</strong></span><br>
+                                    <span class="mapGamemode"><strong>Classic collection and dodging</strong></span>
+                                </div>
+                                <div class="thumbnailLabels">
+                                    <span class="label labelNone">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                                </div>
+                            </div>
+                            <div class="thumbnailAuthors"><small>Best Score: <span id="original-best">0</span></small></div>
+                            <div style="padding-top:2%;" class="center">
+                                <span><a href="games/classic.html" target="_blank" class="btn btn-info thumbnailButton" role="button">Play Game</a></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div id="gamemode_classic" class="thumbnail thumbnailFloat">
+                            <div class="thumbnailImage" style="background-image: url(assets/img/original.png);">
+                                <div class="thumbnailBanner">
+                                    <span class="thumbnailHeader"><strong>Classic</strong></span><br>
+                                    <span class="mapGamemode"><strong>Classic collection and dodging</strong></span>
+                                </div>
+                                <div class="thumbnailLabels">
+                                    <span class="label labelNone">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                                </div>
+                            </div>
+                            <div class="thumbnailAuthors"><small>Best Score: <span id="original-best">0</span></small></div>
+                            <div style="padding-top:2%;" class="center">
+                                <span><a href="games/classic.html" target="_blank" class="btn btn-info thumbnailButton" role="button">Play Game</a></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div id="gamemode_classic" class="thumbnail thumbnailFloat">
+                            <div class="thumbnailImage" style="background-image: url(assets/img/original.png);">
+                                <div class="thumbnailBanner">
+                                    <span class="thumbnailHeader"><strong>Classic</strong></span><br>
+                                    <span class="mapGamemode"><strong>Classic collection and dodging</strong></span>
+                                </div>
+                                <div class="thumbnailLabels">
+                                    <span class="label labelNone">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                                </div>
+                            </div>
+                            <div class="thumbnailAuthors"><small>Best Score: <span id="original-best">0</span></small></div>
+                            <div style="padding-top:2%;" class="center">
+                                <span><a href="games/classic.html" target="_blank" class="btn btn-info thumbnailButton" role="button">Play Game</a></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-4">
+                        <div id="gamemode_classic" class="thumbnail thumbnailFloat">
+                            <div class="thumbnailImage" style="background-image: url(assets/img/original.png);">
+                                <div class="thumbnailBanner">
+                                    <span class="thumbnailHeader"><strong>Classic</strong></span><br>
+                                    <span class="mapGamemode"><strong>Classic collection and dodging</strong></span>
+                                </div>
+                                <div class="thumbnailLabels">
+                                    <span class="label labelNone">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                                </div>
+                            </div>
+                            <div class="thumbnailAuthors"><small>Best Score: <span id="original-best">0</span></small></div>
+                            <div style="padding-top:2%;" class="center">
+                                <span><a href="games/classic.html" target="_blank" class="btn btn-info thumbnailButton" role="button">Play Game</a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="special-release-selection">
+                <div class="page-header">
+                    <h3>Special Releases <span class="badge">0</span></h3>
+                </div>
+            </div>
+            <div id="settings-section">
+                <div class="page-header">
+                    <h3>Settings</h3>
+                </div>
+                <div>
+                    <span class="input-group">
+                        <span class="input-group-addon" id="basic-addon1"><i class="fa fa-key" aria-hidden="true"></i> Score Token</span>
+                        <input type="text" class="form-control" placeholder="Insert score token if you've lost previous scores and achievements" aria-describedby="basic-addon1">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="button">Confirm</button>
+                        </span>
+                    </span>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
